@@ -1,0 +1,11 @@
+
+{
+  "functions": {
+    "app/[[...route]].ts": {
+      "runtime": "edge"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
